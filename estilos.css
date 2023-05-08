@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    padding: 0px;
+    height: 100%;
+}
+
+#navbarNav {
+    margin-left:  25%;
+}
+
+#navbarNav a{
+    color: white;
+}
+
+.container-fluid {
+    height: 80px;
+    background-color: #43474B;
+}
+
+.logo {
+    width: 100px;
+    height: 70px;
+}
+
+.textologo {
+    font-size: 18px;
+}
+
+.carousel-caption.d-none.d-md-block {
+    margin-bottom: 250px;
+    padding-left: 500px;
+    color: white;
+    text-align: end;
+}
+
+@media only screen and (max-width: 1200px) {
+    .carousel-caption.d-none.d-md-block {
+      width: auto;
+      height: auto;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+}
+
+.card.p-md-2.p-lg-3 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.text1 {
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.cajamedio {
+    display: flex;
+    border-radius: 2px black;
+}
+
+.img-fluid {
+    width: 50%;
+    height: auto;
+}
+
+.cajaparrafo {
+    margin-left: 1px;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 50%;
+    height: auto;
+    background-color: #43474B ;
+}
+
+.tituloparrafo{
+    color: white;
+}
+
+#parrafo2 {
+    color: white;
+}
+
+.btn.btn-outline-dark {
+    color: white;
+}
+
+.invitacion {
+    text-align: center;
+}
+
+.invitacion .text1 {
+    padding-top: 20px;
+    height: 20px;
+    font-size: 12px;
+    
+}
+
+.formulario {
+    width: 600px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .formulario {
+      width: auto;
+    }
+}
+
+
+.formulario .text3 {
+    font-size: 12px;
+}
+
+#button4 {
+    background-color: rgb(145, 197, 24);
+    border: none;
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
+
+}
+
+#footnav {
+    background-color: #0f243a;
+    height: 80px;   
+}
+
+a.nav-link {
+   color: white;
+   margin: auto;
+   padding: auto;
+   height: auto;
+   width: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    #footnav {
+      width: auto;
+      height: auto;
+    }
+}
